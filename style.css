@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+body {
+    font-size: 15px;
+    background-color: hsl(216, 12%, 8%);
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.first-container,
+.second-container {
+    background-color: hsl(213, 19%, 18%);
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 425px;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#star-icon {
+    background-color: hsl(214, 14%, 35%);
+    padding: .6rem;
+    border-radius: 50%;
+}
+
+.first-heading {
+    color: hsl(0, 0%, 100%);
+    margin: 2rem 0 1.3rem;
+}
+
+.first-container p {
+    color: hsl(216, 12%, 54%);
+    line-height: 2;
+    margin-bottom: 1.3rem;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+ul li button {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(214, 14%, 35%);
+    color: hsl(217, 26%, 83%);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.rating-button:hover,
+.clicked {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.submit-button {
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    padding: .7rem 0;
+    border-radius: 2rem;
+    letter-spacing: .1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.submit-button:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+#result-image {
+    display: block;
+    margin: 1rem auto 1.5rem;
+}
+
+.second-container p:nth-child(2) {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(214, 14%, 35%);
+    border-radius: 2rem;
+    display: inline-block;
+    padding: .3rem .5rem;
+    margin-bottom: 1.5rem;
+}
+
+.result-heading {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: .6rem;
+}
+
+.second-container p:nth-child(4) {
+    color: hsl(216, 12%, 54%);
+    line-height: 2;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}

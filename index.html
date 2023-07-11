@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+
+<body>
+  <!--Defined rating (first) screen in a div wrapper-->
+  <div class="first-container">
+    <img src="images/icon-star.svg" alt="star-icon" id="star-icon" />
+    <h1 class="first-heading">How did we do?</h1>
+    <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our
+      offering!</p>
+    <!--Put the rating buttons in an unordered list-->
+    <ul>
+      <li><button class="rating-button">1</button></li>
+      <li><button class="rating-button">2</button></li>
+      <li><button class="rating-button">3</button></li>
+      <li><button class="rating-button">4</button></li>
+      <li><button class="rating-button">5</button></li>
+    </ul>
+    <!--Here is our submit button-->
+    <button class="submit-button">SUBMIT</button>
+  </div>
+  <!--Defined rating result (thank you) screen in a div wrapper and hided it-->
+  <div class="second-container hidden">
+    <img src="images/illustration-thank-you.svg" alt="result-image" id="result-image" />
+    <!--Our rating will show up here in the span element-->
+    <p>You selected <span id="result"></span> out of 5</p>
+    <h1 class="result-heading">Thank you!</h1>
+    <p>We appriciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in
+      touch!
+    </p>
+  </div>
+
+  <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>
