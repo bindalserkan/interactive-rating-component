@@ -1,6 +1,6 @@
 # Simple Interactive Rating Component
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). I have been using Frontend Mentor challenges to help improving my coding skills by building realistic projects. 
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). I have been using Frontend Mentor challenges to help improving my coding, especially design skills by building realistic projects. 
 
 ## Table of contents
 
