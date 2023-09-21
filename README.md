@@ -48,8 +48,7 @@ Users should be able to:
 
 ### What I learned
 
-While working through this project, I preferred using HTML/CSS to make my component's states visible or hidden rather than manipulating the DOM one by one with heavy Javascript code. 
-
+While working through this project, I preferred manipulating the DOM with editing the relevant HTML class attribute and CSS property as hidden/visible with Javascript code rather than removing the DOM nodes and replacing them with the new ones. 
 I learned doing so is a useful approach to have a lightweight workflow when it comes to extensive applications (i.e. websites)
 
 Here are some useful code snippets from my work:
@@ -71,5 +70,5 @@ submitButton.addEventListener("click", () => {
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [MDN Javascript Pathway](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents) - MDN's frontend developer pathway really helped me about understanding what the DOM is and how to manipulate it properly.
+- [css-tricks.com](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This comprehensive site is an amaizing guide for getting better insight about CSS3. It enlightened me about the way how Flexbox layout concept is used.
